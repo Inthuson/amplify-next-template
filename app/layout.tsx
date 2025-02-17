@@ -4,6 +4,8 @@ import "./app.css";
 
 import "@aws-amplify/ui-react/styles.css";
 
+import '@aws-amplify/ui-react/styles.css';
+import { ThemeProvider } from '@aws-amplify/ui-react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
